@@ -29,7 +29,7 @@ body {
 
 img {
   max-width: 100%;
-  display: block;
+  display: inline-block;
 }
 
 ul {
@@ -51,6 +51,12 @@ span,
 small {
   display: inline-block;
   font-size: 10px;
+}
+
+h4 {
+  font-size: 16px;
+  color: #ec1f46;
+  margin-bottom: 22px;
 }
 
 /* ========= header ========= */
@@ -222,4 +228,377 @@ small {
   font-size: 14px;
   font-weight: 700;
   line-height: 17px;
+}
+
+/* ========= crumb section ========= */
+.bread__crumb {
+  height: 50px;
+  background-color: #f5fafe;
+  padding-top: 18px;
+}
+
+.bread__crumb div {
+  width: 1100px;
+  margin: 0 auto;
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 400;
+}
+
+.hotel {
+  max-width: 1440px;
+  height: 100px;
+  background-color: #f5fafe;
+}
+
+.hotel__desc img {
+  width: 48px;
+  height: 8px;
+}
+
+.hotel__title {
+  display: flex;
+  align-items: center;
+}
+
+.hotel__desc h1 {
+  font-size: 24px;
+  line-height: 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 15px;
+}
+
+.hotel__desc p {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.hotel__title span {
+  background-color: #ec1f46;
+  vertical-align: baseline;
+  width: 70px;
+  height: 20px;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+}
+
+.hotel__ratings {
+  width: 80px;
+  height: 45px;
+  background-color: #ec1f46;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  padding-top: 8px;
+}
+
+.hotel__ratings h6 {
+  font-size: 8px;
+  font-weight: 600;
+}
+
+.hotel__ratings p {
+  font-size: 10px;
+}
+
+.hotel__overview {
+  max-width: 1440px;
+  background-color: #f5fafe;
+}
+
+.hotel__image img {
+  border-radius: 8px;
+}
+
+.hotel__right__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 450px;
+  border-radius: 8px;
+}
+
+.hotel__booking {
+  width: 350px;
+  height: 210px;
+  background-color: #0a223d;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 26px;
+}
+
+.hotel__booking__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hotel__price {
+  width: 95px;
+  height: 59px;
+}
+
+.hotel__price > p {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.hotel__price > span {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.call__center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.call__center span {
+  font-size: 18px;
+}
+
+.call__center img {
+  display: inline-block;
+}
+
+.hotel__booking button {
+  width: 295px;
+  height: 45px;
+  background-color: #ec1f46;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-weight: 700;
+  outline: none;
+  border: none;
+}
+
+.hotel__map,
+.hotel__map img {
+  border-radius: 8px;
+}
+
+.hotel__person {
+  width: 80px;
+  height: 40px;
+}
+
+.hotel__person img {
+  display: inline-block;
+}
+
+.cards__menu {
+  max-width: 1440px;
+  background-color: #f5fafe;
+  color: #333;
+}
+
+.cards__menu .wrapper a {
+  color: #333;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-transform: capitalize;
+  font-weight: 700;
+  padding: 5px 0;
+}
+
+.cards__menu .wrapper a.active {
+  color: #ec1f46;
+  border-bottom: 3px solid #ec1f46;
+}
+
+.package {
+  /* max-width: 1440px; */
+  height: 842px;
+}
+
+.package__container {
+  max-width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.package__container h2 {
+  text-transform: uppercase;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #333;
+}
+
+.packages__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.package__higlights {
+  width: 538px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.package__higlights h2 {
+  font-size: 18px;
+  padding: 10px 0px 10px 29.5px;
+  background-color: #0a223d;
+  color: #fff;
+  text-transform: capitalize;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.package__body {
+  display: flex;
+  padding-left: 29.5px;
+  padding-right: 29.5px;
+}
+
+.package__body-left {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.package__body-right {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.package__higlights div {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.check,
+.calendar {
+  padding-right: 21px;
+}
+
+.package__offer {
+  width: 538px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.package__offer h2 {
+  font-size: 18px;
+  padding: 10px 0px 10px 29.5px;
+  background-color: #0a223d;
+  color: #fff;
+  text-transform: capitalize;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.package__offer .package__body {
+  height: 103px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.offer-left {
+  height: 100%;
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.offer-left:nth-child(2) {
+  padding-right: 21px;
+}
+
+.offer-left > div {
+  display: flex;
+  align-items: start;
+}
+
+.offer-right > div {
+  display: flex;
+  align-items: center;
+}
+
+.package__summery {
+  height: 550px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 65px;
+  margin-top: 32px;
+}
+
+.package__summery h2 {
+  font-size: 18px;
+  padding: 10px 0px 10px 29.5px;
+  background-color: #0a223d;
+  color: #fff;
+  text-transform: capitalize;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.package__summery-body {
+  width: 1000px;
+  height: 406px;
+  margin-top: 38px;
+  margin-left: 29.5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.package__summery-top {
+  display: flex;
+  justify-content: space-between;
+  height: 320px;
+}
+
+.dotted-line {
+  width: 1048px;
+  height: 1px;
+  border: 0.5px dashed #e0e0e0;
+}
+
+.package__summery-bottom {
+  display: flex;
+  justify-content: start;
+  height: 180px;
+  margin-top: 22px;
+}
+
+.meal {
+  margin-right: 202px;
+}
+
+.entertainment {
+  margin-right: 181px;
+}
+
+.purchase div,
+.complimentary-land div,
+.complimentary-water div,
+.meal div,
+.entertainment div,
+.check-in div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
 }
