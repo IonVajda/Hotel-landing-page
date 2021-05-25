@@ -843,3 +843,74 @@ h4 {
 .row-5-description .price {
   margin-top: 25px;
 }
+
+.reviews {
+  max-width: 1440px;
+}
+
+.reviews-container {
+  max-width: 1100px;
+  height: 550px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.reviews-container h2 {
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
+
+.review {
+  max-width: 731px;
+  height: 280px;
+  background-color: #fff;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 5px;
+}
+
+.review img:first-child {
+  position: absolute;
+  top: -46px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.review h5 {
+  padding-top: 54px;
+  color: #ec1f46;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
+
+.review p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+.review p:last-child {
+  width: 537px;
+  margin: 32px auto 0 auto;
+  text-align: justify;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.fa-angle-left {
+  position: absolute;
+  left: 0;
+  top: 270px;
+  color: #828282;
+  font-size: 30px;
+}
+.fa-angle-right {
+  position: absolute;
+  right: 0;
+  top: 270px;
+  color: #828282;
+  font-size: 30px;
+}
